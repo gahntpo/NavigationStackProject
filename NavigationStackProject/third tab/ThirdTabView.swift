@@ -38,8 +38,9 @@ struct ThirdTabView: View {
         }
         .environmentObject(modelDataManager)
         .environmentObject(navigationStateManager)
-        .environment(\.colorScheme, .dark)
+        //.environment(\.colorScheme, .dark)
         /*
+         // state restoration using async await
         .task {
 
             // reset during launch

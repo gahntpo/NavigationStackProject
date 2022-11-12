@@ -11,8 +11,7 @@ import SwiftUI
 struct NavigationStackProjectApp: App {
     var body: some Scene {
         WindowGroup {
-            //ContentView()
-            ThirdTabView()
+            ContentView()
         }
     }
 }
