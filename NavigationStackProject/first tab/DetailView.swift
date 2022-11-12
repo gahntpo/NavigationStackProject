@@ -12,6 +12,14 @@ struct DetailView: View {
     let text: String
     @Binding var path: NavigationPath
     
+    var backButtonPlacement: ToolbarItemPlacement {
+        #if os(iOS)
+        ToolbarItemPlacement.navigationBarLeading
+        #else
+        ToolbarItemPlacement.navigation
+        #endif
+    }
+    
     var body: some View {
         VStack {
             Text("Detail view showing")
@@ -25,7 +33,7 @@ struct DetailView: View {
         .navigationTitle(text)
         .navigationBarBackButtonHidden()
         .toolbar {
-            ToolbarItem(placement: .navigationBarLeading) {
+            ToolbarItem(placement: backButtonPlacement) {
                 Button {
                     path.removeLast()
                 } label: {
