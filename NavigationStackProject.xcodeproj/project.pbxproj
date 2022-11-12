@@ -11,6 +11,21 @@
 		170398B2291F960200E419F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170398B1291F960200E419F0 /* ContentView.swift */; };
 		170398B4291F960400E419F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 170398B3291F960400E419F0 /* Assets.xcassets */; };
 		170398B8291F960400E419F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 170398B7291F960400E419F0 /* Preview Assets.xcassets */; };
+		170398C2291F967400E419F0 /* FirstTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170398C1291F967400E419F0 /* FirstTabView.swift */; };
+		170398C4291F986D00E419F0 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170398C3291F986D00E419F0 /* DetailView.swift */; };
+		170398C7291F9F7E00E419F0 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170398C6291F9F7E00E419F0 /* Book.swift */; };
+		170398C9291F9FF000E419F0 /* SecondTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170398C8291F9FF000E419F0 /* SecondTabView.swift */; };
+		170398CB291FA0B500E419F0 /* BookDestinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170398CA291FA0B500E419F0 /* BookDestinationView.swift */; };
+		170398CD291FA34C00E419F0 /* ThirdTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170398CC291FA34C00E419F0 /* ThirdTabView.swift */; };
+		170398CF291FA35800E419F0 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170398CE291FA35700E419F0 /* Song.swift */; };
+		170398D1291FA36200E419F0 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170398D0291FA36200E419F0 /* Movie.swift */; };
+		170398D3291FA3C400E419F0 /* ModelDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170398D2291FA3C400E419F0 /* ModelDataManager.swift */; };
+		170398D5291FA42D00E419F0 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170398D4291FA42D00E419F0 /* RootView.swift */; };
+		170398D7291FA5FF00E419F0 /* SongDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170398D6291FA5FF00E419F0 /* SongDetailView.swift */; };
+		170398D9291FA63000E419F0 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170398D8291FA63000E419F0 /* SettingsView.swift */; };
+		170398DB291FA65500E419F0 /* BookDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170398DA291FA65500E419F0 /* BookDetailView.swift */; };
+		170398DD291FA6C200E419F0 /* MovieDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170398DC291FA6C200E419F0 /* MovieDetailView.swift */; };
+		170398DF291FA9AB00E419F0 /* NavigationStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170398DE291FA9AB00E419F0 /* NavigationStateManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +35,21 @@
 		170398B3291F960400E419F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		170398B5291F960400E419F0 /* NavigationStackProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NavigationStackProject.entitlements; sourceTree = "<group>"; };
 		170398B7291F960400E419F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		170398C1291F967400E419F0 /* FirstTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabView.swift; sourceTree = "<group>"; };
+		170398C3291F986D00E419F0 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		170398C6291F9F7E00E419F0 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		170398C8291F9FF000E419F0 /* SecondTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTabView.swift; sourceTree = "<group>"; };
+		170398CA291FA0B500E419F0 /* BookDestinationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDestinationView.swift; sourceTree = "<group>"; };
+		170398CC291FA34C00E419F0 /* ThirdTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdTabView.swift; sourceTree = "<group>"; };
+		170398CE291FA35700E419F0 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		170398D0291FA36200E419F0 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		170398D2291FA3C400E419F0 /* ModelDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelDataManager.swift; sourceTree = "<group>"; };
+		170398D4291FA42D00E419F0 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		170398D6291FA5FF00E419F0 /* SongDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongDetailView.swift; sourceTree = "<group>"; };
+		170398D8291FA63000E419F0 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		170398DA291FA65500E419F0 /* BookDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailView.swift; sourceTree = "<group>"; };
+		170398DC291FA6C200E419F0 /* MovieDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailView.swift; sourceTree = "<group>"; };
+		170398DE291FA9AB00E419F0 /* NavigationStateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStateManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +84,11 @@
 			children = (
 				170398AF291F960200E419F0 /* NavigationStackProjectApp.swift */,
 				170398B1291F960200E419F0 /* ContentView.swift */,
+				170398BE291F965000E419F0 /* first tab */,
+				170398BF291F965A00E419F0 /* second tab */,
+				170398C0291F966000E419F0 /* third tab */,
 				170398B3291F960400E419F0 /* Assets.xcassets */,
+				170398C5291F9F6E00E419F0 /* model */,
 				170398B5291F960400E419F0 /* NavigationStackProject.entitlements */,
 				170398B6291F960400E419F0 /* Preview Content */,
 			);
@@ -67,6 +101,57 @@
 				170398B7291F960400E419F0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		170398BE291F965000E419F0 /* first tab */ = {
+			isa = PBXGroup;
+			children = (
+				170398C1291F967400E419F0 /* FirstTabView.swift */,
+				170398C3291F986D00E419F0 /* DetailView.swift */,
+			);
+			path = "first tab";
+			sourceTree = "<group>";
+		};
+		170398BF291F965A00E419F0 /* second tab */ = {
+			isa = PBXGroup;
+			children = (
+				170398C8291F9FF000E419F0 /* SecondTabView.swift */,
+				170398CA291FA0B500E419F0 /* BookDestinationView.swift */,
+			);
+			path = "second tab";
+			sourceTree = "<group>";
+		};
+		170398C0291F966000E419F0 /* third tab */ = {
+			isa = PBXGroup;
+			children = (
+				170398CC291FA34C00E419F0 /* ThirdTabView.swift */,
+				170398D4291FA42D00E419F0 /* RootView.swift */,
+				170398D6291FA5FF00E419F0 /* SongDetailView.swift */,
+				170398DC291FA6C200E419F0 /* MovieDetailView.swift */,
+				170398D8291FA63000E419F0 /* SettingsView.swift */,
+				170398DA291FA65500E419F0 /* BookDetailView.swift */,
+				170398E0291FA9B600E419F0 /* view model */,
+			);
+			path = "third tab";
+			sourceTree = "<group>";
+		};
+		170398C5291F9F6E00E419F0 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				170398C6291F9F7E00E419F0 /* Book.swift */,
+				170398CE291FA35700E419F0 /* Song.swift */,
+				170398D0291FA36200E419F0 /* Movie.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		170398E0291FA9B600E419F0 /* view model */ = {
+			isa = PBXGroup;
+			children = (
+				170398D2291FA3C400E419F0 /* ModelDataManager.swift */,
+				170398DE291FA9AB00E419F0 /* NavigationStateManager.swift */,
+			);
+			path = "view model";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +224,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				170398CF291FA35800E419F0 /* Song.swift in Sources */,
 				170398B2291F960200E419F0 /* ContentView.swift in Sources */,
+				170398CB291FA0B500E419F0 /* BookDestinationView.swift in Sources */,
+				170398DF291FA9AB00E419F0 /* NavigationStateManager.swift in Sources */,
+				170398CD291FA34C00E419F0 /* ThirdTabView.swift in Sources */,
+				170398D1291FA36200E419F0 /* Movie.swift in Sources */,
+				170398C4291F986D00E419F0 /* DetailView.swift in Sources */,
+				170398C2291F967400E419F0 /* FirstTabView.swift in Sources */,
+				170398DB291FA65500E419F0 /* BookDetailView.swift in Sources */,
+				170398D9291FA63000E419F0 /* SettingsView.swift in Sources */,
+				170398D3291FA3C400E419F0 /* ModelDataManager.swift in Sources */,
+				170398D5291FA42D00E419F0 /* RootView.swift in Sources */,
+				170398C7291F9F7E00E419F0 /* Book.swift in Sources */,
+				170398C9291F9FF000E419F0 /* SecondTabView.swift in Sources */,
+				170398D7291FA5FF00E419F0 /* SongDetailView.swift in Sources */,
+				170398DD291FA6C200E419F0 /* MovieDetailView.swift in Sources */,
 				170398B0291F960200E419F0 /* NavigationStackProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
